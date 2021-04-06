@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+
+
+/* Navbar  */
+.navbar{
+    margin-left: 2%;
+    padding: 2%;
+}
+.logo{
+    margin-left: 1%;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(240, 52, 52);
+    text-decoration: none;
+}
+.logo:hover{
+    color: #fff;
+}
+
+
+
+.nav-item{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.vid-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: left;
+    
+}
+
+
+.title h2{
+    color: #fff;
+    font-size: 8.5rem;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    
+}
+
+.title-body{
+    margin-top: 30px;
+}
+
+.title-body p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+
+/* Button */
+
+.button{
+    background-color: rgb(240, 52, 52);
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3%;
+    letter-spacing: 4px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: rgb(230, 63, 63);
+
+}
+
+hr{
+    background:  rgb(240, 52, 52);
+    width: 10%;
+    border: none;
+    opacity: 1;
+}
+
+/* Pricing */
+.pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+.pricing-heading{
+    color: rgb(0, 0, 0);
+    font-size: 5.5rem;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    
+}
